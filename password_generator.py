@@ -50,6 +50,9 @@ def another_action():
         print("Error : Incorrect choice. Please enter 'y' for yes or 'n' for no.")
         another_action()
 
+def main():
+    password_generator()
 
-password_generator()
+if __name__ == "__main__":
+    main()
 
